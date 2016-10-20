@@ -13,10 +13,20 @@
         <name>Test</name>
         <!--角色属性-->
         <attr>光</attr>
-        <!--角色成长属性-->
+        <!--角色成长属性列表-->
+        <growlist>
         <grow>
             <level>1</level>
-            
+            <hp>10</hp>
+            <atk>5</atk>
         </grow>
+        <grow>
+            <level>2</level>
+            <hp>16</hp>
+            <atk>8</atk>
+        </grow>
+        ...
+        </growlist>
     </card>
 ```
+
